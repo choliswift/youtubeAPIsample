@@ -6,7 +6,7 @@ class ViewController: UIViewController {
     //②URLを変更した際に起きるエラーの解消
     var keyword = ""
     //private let url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=poke&key="
-    private let apiKey = "AIzaSyCbT5qzUv_r4ixM-HBVr0TKl3cJScZ6Vmo"
+    private let apiKey = "任意のAPIKey"
     //ストアドプロパティだと参照できない
     //private let url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&order=date&q=\(keyword)&type=video&key="
     //コンピューティッドプロパティだと参照できる ※iOSアカデミアの動画講義復習
